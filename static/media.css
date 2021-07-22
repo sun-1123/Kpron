@@ -1,0 +1,137 @@
+@media (min-width:576px) {
+    header nav {
+        padding: .5rem 8px !important;
+    }
+}
+
+@media screen and (max-width:767px) {}
+
+
+/* 小屏幕（平板，大于等于 768px） */
+
+@media (min-width: 768px) {
+    header {
+        background: #0F0F0F;
+    }
+    .navbar-dark .navbar-nav .last {
+        padding-right: 0;
+    }
+    .banner .row {
+        padding: 132px 0;
+    }
+    .banner .row .bannerD {
+        width: 300px;
+        height: auto;
+        position: absolute;
+        bottom: 120px;
+        content: url("../imgs/banner-d.svg");
+    }
+    .banner .title {
+        font-size: 84px;
+        line-height: 88px;
+    }
+    .banner .detail {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .banner .line {
+        margin: 40px 0;
+    }
+    .banner .KBox {
+        flex-direction: row;
+    }
+    .banner .v1 {
+        margin-top: 0;
+    }
+    .banner .right img {
+        float: right;
+    }
+    .Kpron .left .title {
+        font-size: 32px;
+        line-height: 36px;
+        height: 36px;
+    }
+    .Kpron .left {
+        margin-right: 80px;
+    }
+    .Kpron .left .line img {
+        content: url("../imgs/P1_d2.svg");
+        margin-left: 0;
+        max-width: 256px;
+    }
+    .contact .right .lastLine {
+        background: none;
+    }
+    .contact .right .linkGroup {
+        flex-direction: column;
+    }
+    .contact .copyrightBox {
+        padding: 28px 0;
+    }
+}
+
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+
+@media (min-width: 992px) {
+    .banner .row .bannerD {
+        width: 400px;
+        height: auto;
+        position: absolute;
+        bottom: 120px;
+        content: url("../imgs/banner-d.svg");
+    }
+    .Kpron .kRow {
+        padding: 140px 0 100px 0;
+    }
+    .Kpron .right {
+        padding-top: 0;
+    }
+    .crowdloan .cRow {
+        padding: 100px 0;
+    }
+    .crowdloan .cCol {
+        position: relative;
+    }
+    .crowdloan .leftT {
+        position: absolute;
+    }
+    .crowdloan .decorate {
+        position: relative;
+        top: 32%;
+    }
+    .crowdloan .item {
+        position: absolute;
+        width: 186px;
+        display: block;
+    }
+    .crowdloan .item>.itemBox {
+        width: 100%;
+        margin: 0;
+    }
+    .crowdloan .box {
+        position: relative;
+        margin-top: -50px;
+    }
+    .crowdloan .title {
+        font-size: 32px;
+        line-height: 36px;
+        height: 36px;
+    }
+}
+
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+
+@media (min-width: 1200px) {}
+
+@media screen and (min-width: 1280px) {
+    .banner .K-APN {
+        min-width: 594px;
+        font-size: 14px;
+        line-height: 36px;
+    }
+    .container {
+        min-width: 1200px;
+    }
+}
