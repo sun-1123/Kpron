@@ -18,7 +18,7 @@
 
 body {
     overflow: hidden;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 14px;
     background: #262626;
 }
@@ -30,14 +30,14 @@ body {
     color: white;
     font-weight: bold;
     line-height: 20px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     transition: all 0.2s ease-in-out;
     position: relative;
     overflow: hidden;
 }
 
 .btn:hover {
-    opacity: .8;
+    opacity: 0.8;
     color: white;
     border-bottom: 4px solid darken(white, 10%);
 }
@@ -68,7 +68,7 @@ body {
 .blue_btn {
     border: 0;
     letter-spacing: 0px;
-    background: linear-gradient(-90deg, #3D85FF 0%, #3241F4 100%);
+    background: linear-gradient(-90deg, #3d85ff 0%, #3241f4 100%);
 }
 
 .content {
@@ -82,8 +82,8 @@ body {
     height: 32px;
     line-height: 32px;
     border-radius: 37px;
-    background: #FFFFFF;
-    color: #3241F4;
+    background: #ffffff;
+    color: #3241f4;
     font-family: D-DIN;
     font-weight: bolder;
     font-size: 20px;
@@ -184,6 +184,8 @@ header {
 }
 
 .banner .btnGroup {
+    display: flex;
+    flex-direction: column;
     margin-top: 44px;
 }
 
@@ -210,18 +212,20 @@ header {
     white-space: nowrap;
 }
 
-.Kpron .left .line img {
+
+/* .Kpron .left .line img {
     margin-top: 5px;
     max-width: 186px;
     opacity: 0.30000001192092896;
-}
+} */
 
 .Kpron .left .auction {
-    width: 200px;
+    width: 170px;
+    text-align: center;
     height: 36px;
     line-height: 36px;
     opacity: 0.8999999761581421;
-    color: #3241F4;
+    /* color: #3241f4; */
     /* font-family: Open Sans; */
     font-weight: bold;
     font-size: 14px;
@@ -240,15 +244,23 @@ header {
     max-width: 499px;
 }
 
+.Kpron .left .crowBtn {
+    margin-top: 64px
+}
+
 .Kpron .right {
     padding-top: 28px;
 }
 
+.Kpron .right .line1,
+.Kpron .right .line2 {
+    display: flex;
+    flex-direction: column;
+}
+
 .Kpron .right .item {
-    border-radius: 8px;
     background: rgba(15, 15, 15, 0.20000000298023224);
     padding: 28px 20px;
-    margin-bottom: 20px;
 }
 
 .Kpron .right .interest {
@@ -281,6 +293,10 @@ header {
 
 .crowdloan .cRow {
     padding: 40px 0 64px 0;
+}
+
+.crowdloan .cCol {
+    overflow: hidden;
 }
 
 .crowdloan .title {
@@ -453,11 +469,11 @@ header {
     width: 20px;
     height: 2px;
     border-radius: 1px;
-    background: linear-gradient(-90deg, #3D85FF 0%, #3241F4 100%);
+    background: linear-gradient(-90deg, #3d85ff 0%, #3241f4 100%);
 }
 
 .contact .right .lastLine {
-    background: linear-gradient(-90deg, #3D85FF 0%, #3241F4 100%);
+    background: linear-gradient(-90deg, #3d85ff 0%, #3241f4 100%);
 }
 
 .contact .right .link {

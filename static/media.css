@@ -1,17 +1,20 @@
-@media (min-width:576px) {
+@media (min-width: 576px) {
     header nav {
-        padding: .5rem 8px !important;
+        padding: 0.5rem 8px !important;
+    }
+    .banner .btnGroup {
+        flex-direction: row;
     }
 }
 
-@media screen and (max-width:767px) {}
+@media screen and (max-width: 767px) {}
 
 
 /* 小屏幕（平板，大于等于 768px） */
 
 @media (min-width: 768px) {
     header {
-        background: #0F0F0F;
+        background: #0f0f0f;
     }
     .navbar-dark .navbar-nav .last {
         padding-right: 0;
@@ -51,14 +54,14 @@
         line-height: 36px;
         height: 36px;
     }
-    .Kpron .left {
+    /* .Kpron .left {
         margin-right: 80px;
-    }
-    .Kpron .left .line img {
+    } */
+    /* .Kpron .left .line img {
         content: url("../imgs/P1_d2.svg");
         margin-left: 0;
         max-width: 256px;
-    }
+    } */
     .contact .right .lastLine {
         background: none;
     }
@@ -82,13 +85,43 @@
         content: url("../imgs/banner-d.svg");
     }
     .Kpron .kRow {
-        padding: 140px 0 100px 0;
+        padding: 100px 0;
+    }
+    .Kpron .left .crowBtn {
+        margin-top: 172px
     }
     .Kpron .right {
         padding-top: 0;
     }
+    .Kpron .right .line1,
+    .Kpron .right .line2 {
+        display: flex;
+        flex-direction: row;
+    }
+    .Kpron .right .line1 {
+        margin-bottom: 2px;
+    }
+    .Kpron .right .item {
+        width: calc(50% - 1px);
+    }
+    .Kpron .right .line1 :first-child,
+    .Kpron .right .line2 :first-child {
+        margin-right: 2px;
+    }
+    .Kpron .right .line1 :nth-child(1) {
+        border-top-left-radius: 8px;
+    }
+    .Kpron .right .line1 :nth-child(2) {
+        border-top-right-radius: 8px;
+    }
+    .Kpron .right .line2 :nth-child(1) {
+        border-bottom-left-radius: 8px;
+    }
+    .Kpron .right .line2 :nth-child(2) {
+        border-bottom-right-radius: 8px;
+    }
     .crowdloan .cRow {
-        padding: 100px 0;
+        padding: 64px 0 100px 0;
     }
     .crowdloan .cCol {
         position: relative;
