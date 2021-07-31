@@ -332,7 +332,7 @@ header {
 
 .crowdloan .right_bottom {
     position: absolute;
-    bottom: 11px;
+    bottom: 0;
     right: 0;
 }
 

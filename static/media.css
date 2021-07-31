@@ -125,6 +125,7 @@
     }
     .crowdloan .cCol {
         position: relative;
+        overflow: unset;
     }
     .crowdloan .leftT {
         position: absolute;
@@ -137,6 +138,7 @@
         position: absolute;
         width: 186px;
         display: block;
+        margin-bottom: 0;
     }
     .crowdloan .item>.itemBox {
         width: 100%;
